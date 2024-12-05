@@ -1,8 +1,12 @@
-# Final-Project
-INST377 - Dynamic Web Applications
+# Final Project  
+**Course**: INST377 - Dynamic Web Applications
 
-Title: BookExplorer
-Browser: Mozilla Firefox, Google Chrome, Brave
-Developer Manual: 
+## Project Title:
+**BookExplorer**
 
-# Developer Manual 
+## Supported Browsers:
+- Mozilla Firefox
+- Google Chrome
+- Brave
+
+## Developer Manual:
