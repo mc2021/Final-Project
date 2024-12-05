@@ -9,4 +9,4 @@
 - Google Chrome
 - Brave
 
-## Developer Manual:
+## Developer Manual
