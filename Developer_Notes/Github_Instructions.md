@@ -1,7 +1,3 @@
-# Final-Project
-INST377 - Dynamic Web Applications
-
-
 # GitHub Repository Workflow Guide
 
 This guide explains the steps to **clone a repository**, **make changes**, and **push those changes back to GitHub**.
