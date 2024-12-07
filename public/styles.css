@@ -9,10 +9,16 @@ header {
   background-color: #343a40;
   color: white;
   padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  text-align: center;
 }
 
 header h1 {
-  margin: 0;
+  margin: 1;
 }
 
 nav a {
@@ -35,7 +41,6 @@ main {
 
 #results {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 10px;
 }
 
@@ -58,6 +63,60 @@ footer {
   color: white;
 }
 
+#reading-list-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  padding: 20px;
+  border: 1px solid #ccc;
+}
 
+#reading-list {
+  text-align: left;
+}
 
-  
+.search-button {
+  background-color: #4a9ef7;
+  color: white; 
+  font-size: 16px; 
+  padding: 1px 17px;  
+  border: none;
+  border-radius: 25px; 
+  cursor: pointer; 
+}
+
+.search-button:hover {
+  background-color: #0678f3;
+}
+
+.search-input {
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 16px; 
+  padding: 1px 17px;  
+  border: 1px solid #101010; 
+  border-radius: 25px; 
+}
+
+.search-input:hover {
+  border-color: #0678f3; 
+}
+
+.book {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.save-button {
+  background-color: #51c63f;
+  color: white; 
+  font-size: 16px; 
+  padding: 1px 17px;  
+  border: none;
+  border-radius: 25px; 
+  cursor: pointer; 
+}

@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       // Populate the list
       books.forEach((book) => {
         const listItem = document.createElement('li');
-        listItem.textContent = `${book.title} by ${book.author}`;
+        listItem.innerHTML = `<strong>${book.title}</strong> - ${book.author}`;
         readingListElement.appendChild(listItem);
       });
     }
@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     console.error('Error fetching reading list:', error);
     readingListElement.innerHTML = '<li>Failed to load reading list. Please try again later.</li>';
   }
+
 });
 
 // NEW FUNCTION TO GENERATE CHART
