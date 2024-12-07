@@ -13,3 +13,13 @@ INST377 - Dynamic Web Applications
 - Brave
 
 ## Developer Manual
+
+Make sure the server is running on `http://localhost:5500`.
+
+### Pages
+
+- **Home Page**: [`http://localhost:5500/public/index.html`](http://localhost:5500/public/index.html)
+- **About Page**: [`http://localhost:5500/public/about.html`](http://localhost:5500/public/about.html)
+- **Reading List Page**: [`http://localhost:5500/public/reading-list.html`](http://localhost:5500/public/reading-list.html)
+
+
